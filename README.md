@@ -12,7 +12,10 @@ This module is intended for use with Python 3 but should work in Python 2 with n
 This software is written by Christopher Phillips and implies no gurantees of functionality.
 The software may be freely distributed provided this Readme remains unmodified and is distributed with the software.
 
-.
+Requirements:
+Python
+Numpy
+
 Examples for using the code are below.
 
 #-------------Example 1 pyRK4_step --------------
