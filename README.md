@@ -4,17 +4,18 @@ This module implements the 4th order Runge-Kutta method in Python.
 To install simply clone the repository or download the source file into its own dirctory and run the setup script with "python3 setup.py install"
 
 The module contains two functions, "pyRK4_step" and "pyRK4_integrate"
-The step function implements a sinlge iteration of the RK4 method.
+The step function implements a single iteration of the RK4 method.
 The integrate function does the full integration when provided the bounds of integration.
 
-This module is intended for use with Python 3 but should work in Python 2 with no changes.
-An example of using the code is below.
+This module is intended for use with Python 3 but should work in Python 2 with no changes other than installing with python2 instead of python3.
 
 This software is written by Christopher Phillips and implies no gurantees of functionality.
 The software may be freely distributed provided this Readme remains unmodified and is distributed with the software.
 
+.
+Examples for using the code are below.
 
-#-------------Example 1--------------
+#-------------Example 1 pyRK4_step --------------
 
  from pyRK4 import pyRK4
  import numpy
@@ -40,7 +41,7 @@ The software may be freely distributed provided this Readme remains unmodified a
 
 #------------------------------------
 
-#-------------Example 2--------------
+#-------------Example 2 pyRK4_integrate--------------
 
  from pyRK4 import pyRK4_integrate
  
