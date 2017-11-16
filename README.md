@@ -1,8 +1,7 @@
 # pyRK4
 This module implements the 4th order Runge-Kutta method in Python.
 
-To install simply clone the repository or download the source file into its own dirctory and run the setup script with
-"python setup.py install"
+To install simply clone the repository or download the source file into its own dirctory and run the setup script with "python3 setup.py install" or
 
 This module is intended for use with Python 3 but should work in Python 2 with no changes.
 An example of using the code is below.
